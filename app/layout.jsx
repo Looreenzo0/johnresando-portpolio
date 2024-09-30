@@ -1,5 +1,6 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/ui/Header";
 
 const jetBrains_Mono = JetBrains_Mono({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body
         className={jetBrains_Mono.variable}
       >
+        <Header />
         {children}
       </body>
     </html>
