@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24 mx-4 sm:mx-0">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl mb-2">Full Stack Developer</span>
-            <h1 className="h1 mb-6">
+            <h3 className="h1 mb-6">
               Hello I'm <br />{" "}
               <span className="text-accent">John Laurence Resando</span>
-            </h1>
+            </h3>
             <p className="max-w-[768px] mb-9 text-white/80">
               I specialize in both front-end and back-end development, working
               with .NET technologies such as C#, ASP.NET Core, ASP.NET MVC, and

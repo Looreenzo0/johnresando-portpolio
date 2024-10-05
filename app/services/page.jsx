@@ -3,37 +3,7 @@
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
-
-const services = [
-  {
-    num: "01",
-    title: "Front-end",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incid.",
-    href: "",
-  },
-  {
-    num: "02",
-    title: "Back-end",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incid.",
-    href: "",
-  },
-  {
-    num: "03",
-    title: "Database management",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incid.",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incid.",
-    href: "",
-  },
-];
+import { services } from "@/lib/data";
 
 const Services = () => {
   return (
@@ -50,7 +20,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex-1 flex flex-col justify-center gap-6 group"
+              className="flex-1 flex flex-col justify-center gap-6 group mx-4 sm:mx-0"
             >
               {/* top */}
               <div className="w-full flex justify-between items-center">
