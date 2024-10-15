@@ -44,7 +44,7 @@ const Work = () => {
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
               </div>
-              <h2 className="text-[42px] font-bold leading-none text-white capitalize">
+              <h2 className="text-[20px] md:text-[32px] font-bold leading-none text-white capitalize">
                 {project.category}
               </h2>
               <p className="text-white/60">{project.description}</p>
@@ -58,7 +58,12 @@ const Work = () => {
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
                 {/* Live Project Link */}
-                <Link href={project.live} aria-label="Live Project">
+                <Link
+                  href={project.live}
+                  aria-label="Live Project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">

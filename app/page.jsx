@@ -17,11 +17,12 @@ const Home = () => {
               <span className="text-accent">John Laurence Resando</span>
             </h3>
             <p className="max-w-[768px] mb-9 text-white/80">
-              I specialize in both front-end and back-end development, working
-              with .NET technologies such as C#, ASP.NET Core, ASP.NET MVC, and
-              the .NET framework. I also have expertise in building web
-              applications and APIs using .NET Core, EF Core, and Dapper for
-              data management.
+              A Full Stack Developer specializing in web application development
+              with a focus on performance, scalability, and user experience. I
+              have experience building both front-end and back-end systems,
+              working with cloud services, and integrating APIs. My projects
+              span various industries, delivering solutions from business
+              platforms to e-commerce systems.
             </p>
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
